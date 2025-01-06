@@ -18,9 +18,9 @@ const Contact = () => {
                     <a href="mailto:hello@adipurdila.com">hello@adipurdila.com</a>               
                 </p>
                 <ul className="social_links">
-                    <li><a href=""><img src="images/twitter.png" alt="twitter"/></a></li>
-                    <li><a href=""><img src="images/facebook.png" alt="facebook"/></a></li>
-                    <li><a href=""><img src="images/dribble.png" alt="dribble"/></a></li>
+                    <li><a href="/"><img src="images/twitter.png" alt="twitter"/></a></li>
+                    <li><a href="/"><img src="images/facebook.png" alt="facebook"/></a></li>
+                    <li><a href="/"><img src="images/dribble.png" alt="dribble"/></a></li>
                 </ul>                                
             </div>
             <hr className="double"/>
