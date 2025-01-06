@@ -11,7 +11,7 @@ const Home = ({ data }) => {
         //첨부파일 경로 출력
         const { data:thumbnailData } = supabase
         .storage
-        .from('public-bucket')
+        .from('project')
         .getPublicUrl(path)
         
         return thumbnailData.publicUrl;
